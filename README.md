@@ -9,12 +9,12 @@ This script was written to be a very easy way for non-programmers to be able to 
 This script allows you to generate a unique link to download a file. This file will only be allowed to download one time. This link will also have also have an expiration date set on it.
 
 #Usage
-All files must be uploaded to a directory on your server. This directory's permissions MUST be chmod 755 (Also known as) User: read/write/execute Group: read/execute World: read/execute
+All files must be uploaded to a directory on your server. This directory's permissions MUST be ```chmod 755``` (Also known as) ```User: read/write/execute Group: read/execute World: read/execute```
 
 The directory called secret must also have the same permissions set as the parent directory.
 
-You will need to modify the variables.php file and set your file specific info.
-
+You will need to modify the ```variables.php``` file and set your file specific info.
+```
 // Arrays of content type, suggested names and protected names
 $PROTECTED_DOWNLOADS = array(
     array(
@@ -37,6 +37,7 @@ define('ADMIN_PASSWORD','1234');
 
 // The expiration date of the link (examples: +1 year, +5 days, +13 hours)
 define('EXPIRATION_DATE', '+1 month');
+```
 
 Once this is in place, you are ready to generate a new download key. To do this, you will need to use the password you set in the variables file. In the example above, that is 1234
 
