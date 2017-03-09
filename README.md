@@ -1,7 +1,5 @@
-# Single use download script
+# One Time Download Link script
 
-## Demo
-[http://cloud.joshpangell.com/singleuse](http://cloud.joshpangell.com/singleuse)
 
 ## Brief
 
@@ -47,7 +45,7 @@ You will need to modify the `variables.php` file and set your file specific info
 	);
 
 	// The path to the download.php file (probably same dir as this file)
- 	define('DOWNLOAD_PATH','/singleuse/download.php');
+ 	define('DOWNLOAD_PATH','/OneTimeDownloadLink/download.php');
 	
 	// The admin password to generate a new download link
 	define('ADMIN_PASSWORD','1234');
@@ -57,6 +55,6 @@ You will need to modify the `variables.php` file and set your file specific info
 
 Once this is in place, you are ready to generate a new download key. To do this, you will need to use the password you set in the variables file. In the example above, that is `1234`
 
-Navigate to `example.com/singleuse/generate.php?1234` (Notice the `?1234` a the end — that is your password)
+Navigate to `example.com/OneTimeDownloadLink/generate.php?1234` (Notice the `?1234` a the end — that is your password)
 
 Copy the link that is generated and send it off. Voila! Done.
