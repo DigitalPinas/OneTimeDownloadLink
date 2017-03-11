@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>One Time Use Download Link</title>
+    <title>One Time Download Link</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -45,7 +45,7 @@
     <div class="container">
 		<!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>One time use download</h1>
+        <h1>One Time Download Link</h1>
         <br>
         <h2>Brief</h2><br>
 		<p>This script was written to be a very easy way for non-programmers to be able to create a secure way to share a single file. It is ideal for 
@@ -66,7 +66,7 @@
     <p>On July 11, 2016 a multi-file feature branch was merged with the single file. It is now possible to download multiple files at once. </p>
         <br>
         <h2>Example</h2><br>
-        <p><a href="/OneTimeDownloadLink/generate.php?1234">Generate a download link</a></p>
+        <p><a href="/singleuse/generate.php?1234">Generate a download link</a></p>
         <br>
         <h2>Git the code</h2><br>
         <p><a href="https://github.com/KuyaDex/OneTimeDownloadLink">Github repository</a></p>
@@ -77,8 +77,7 @@
      <footer class="footer">
       <div class="container">
 		<p>
-        
-         This demo page was built using <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter bootstrap</a>
+            This demo page was built using <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter bootstrap</a>
         </p>
       </div>
     </footer>
